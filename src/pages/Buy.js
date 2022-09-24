@@ -26,14 +26,14 @@ const Buy = () => {
                     if (Collection === messCollection) {
                         return (
                             <div className={classes.child} onClick={() => navigate('/mess')} >
-                                <CategoryCard name={col.name} description={col.location} price={col.price} />
+                                <CategoryCard name={col.name} description={col.location} price={col.price} img={col.img}/>
                             </div>
                         )
                     }
                     else {
                         return (
                             <div className={classes.child} >
-                                <CategoryCard name={col.name} description={col.item} price={col.price} />
+                                <CategoryCard name={col.name} description={col.item} price={col.price} img={col.img}/>
                             </div>
                         )
                     }

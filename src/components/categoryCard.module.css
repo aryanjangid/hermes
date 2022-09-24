@@ -8,11 +8,12 @@
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;  
     border-radius: 10px;
     margin: 2rem;
+    background-color: #FBF4E8;
    }
    
    .cardImg {
-    background-color: #faf4ed;
-    height: 130px;
+    background-color: white;
+    height: 200px;
     width: 100%;
     border-radius: .5rem;
     transition: .3s ease;
@@ -20,7 +21,12 @@
     align-items: center;
     justify-content: center;;
    }
-   
+   .cardImg img{
+    width: 280px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+   }
    .cardInfo {
     padding-top: 10%;
    }

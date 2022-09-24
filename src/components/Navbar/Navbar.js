@@ -20,10 +20,10 @@ const Navbar = () => {
     return (
         <>
             <Nav style={{
-                backgroundColor: '#212121', height: "fitContent", width: "100vw"
+                backgroundColor: '#d3e8dc', height: "fitContent", width: "100vw"
             }}>
                 <NavLink to='/'>
-                    <h1 style={{ marginBottom: "2rem", margin: "auto", marginLeft: "1rem", color: "white" }}>Aahhar</h1>
+                    <h1 style={{ marginBottom: "2rem", margin: "auto", marginLeft: "1rem", color: "#ff8201" }}>Aahhar</h1>
                 </NavLink>
                 <Bars />
                 <NavMenu>

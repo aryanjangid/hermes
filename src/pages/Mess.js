@@ -9,7 +9,7 @@ const Mess = () => {
             <Hero name="Nana Shree Mess" title="Popular for matar paneer" background={background} />
             <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', margin: '5rem 0' }}>
                 {Thali.map((mess, i) => (
-                    <ProductCard name={mess.name} item={mess.item} price={mess.price} key={i} />
+                    <ProductCard name={mess.name} item={mess.item} price={mess.price} key={i} img={mess.img}/>
                 ))}
             </div>
         </div>
