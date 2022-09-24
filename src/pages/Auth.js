@@ -5,7 +5,8 @@ import Signup from '../components/Signup'
 const Auth = () => {
     return (
         <div>
-            <Login />
+            <Login></Login>
+            {/* <Signup></Signup> */}
         </div>
     )
 }

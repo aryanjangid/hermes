@@ -1,23 +1,29 @@
 import React from 'react'
 import { useState } from 'react'
+import NormalButton from '../components/NormalButton'
 import CategoryCard from '../components/CategoryCard'
 import { messCollection, houseCollection } from '../data'
 import classes from './Buy.module.css'
+import { useNavigate } from 'react-router-dom'
 
 const Buy = () => {
-
+    const navigate = useNavigate()
     const [Collection, setCollection] = useState(messCollection)
 
     return (
         <div className={classes.buy}>
             <div className={classes.btns}>
-                <button onClick={() => setCollection(messCollection)}>buy from mess</button>
-                <button onClick={() => setCollection(houseCollection)}>buy from household</button>
+                <div onClick={() => setCollection(messCollection)}>
+                    <NormalButton name='buy from mess' />
+                </div>
+                <div onClick={() => setCollection(houseCollection)} >
+                    <NormalButton name='buy from household' />
+                </div>
             </div>
             <div className={classes.list}>
                 {Collection.map(col => {
                     return (
-                        <div className={classes.child} >
+                        <div className={classes.child} onClick={() => navigate('/mess')} >
                             <CategoryCard name={col.name} description={col.location} price={col.price} />
                         </div>
                     )
