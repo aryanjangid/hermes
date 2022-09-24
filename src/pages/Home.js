@@ -7,8 +7,8 @@ const Home = () => {
   const navigate = useNavigate()
   return (
     <div>
-      <button onClick={() => navigate('/buy')}>buy</button>
-      <button onClick={() => navigate('/sell')}>sell</button>
+      <Button onClick={() => navigate('/buy')}>buy</Button>
+      <Button onClick={() => navigate('/sell')}>sell</Button>
     </div>
   )
 }

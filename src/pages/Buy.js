@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import CategoryCard from '../components/CategoryCard'
 import { messCollection, houseCollection } from '../data'
 
 const Buy = () => {
@@ -14,7 +15,7 @@ const Buy = () => {
                 {Collection.map(col => {
                     if (Collection === messCollection) {
                         return (
-                            <p>{col.name}</p>
+                            <CategoryCard name={col.name} description={col.location} price={col.price} />
                         )
                     }
                     else {
