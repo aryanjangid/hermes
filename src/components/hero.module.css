@@ -1,7 +1,7 @@
 .heroDiv{
     text-align: center;
     color: white;
-    text-shadow: 0 0 3px orangered, 0 0 5px black;
+    /* text-shadow: 0 0 3px orangered, 0 0 5px black; */
 }
 
 .heroDiv h1{
