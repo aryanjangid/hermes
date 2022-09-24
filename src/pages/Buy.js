@@ -22,18 +22,18 @@ const Buy = () => {
                 </div>
             </div>
             <div className={classes.list}>
-                {Collection.map(col => {
+                {Collection.map((col,i) => {
                     if (Collection === messCollection) {
                         return (
                             <div className={classes.child} onClick={() => navigate('/mess')} >
-                                <CategoryCard name={col.name} description={col.location} price={col.price} img={col.img}/>
+                                <CategoryCard key={i} name={col.name} description={col.location} price={col.price} img={col.img}/>
                             </div>
                         )
                     }
                     else {
                         return (
                             <div className={classes.child} >
-                                <CategoryCard name={col.name} description={col.item} price={col.price} img={col.img}/>
+                                <CategoryCard key={i} name={col.name} description={col.item} price={col.price} img={col.img}/>
                             </div>
                         )
                     }

@@ -19,6 +19,7 @@ function App() {
         <Route exact path='/buy' element={<Buy />} />
         <Route exact path='/sell' element={<Sell />} />
         <Route exact path='/mess' element={<Mess />} />
+        <Route exact path='*' element={<Home />} />
       </Routes>
     </>
   );

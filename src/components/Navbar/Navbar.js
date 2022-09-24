@@ -27,13 +27,13 @@ const Navbar = () => {
                 </NavLink>
                 <Bars />
                 <NavMenu>
-                    <NavLink to='/buy' activeStyle>
+                    <NavLink to='/buy' >
                         Kha
                     </NavLink>
-                    <NavLink to='/sell' activeStyle>
+                    <NavLink to='/sell' >
                         Khila
                     </NavLink>
-                    {!login && <NavLink to='/auth' activeStyle>
+                    {!login && <NavLink to='/auth' >
                         Register Now
                     </NavLink>}
                     {login && <NavLink to={`/profile/${localStorage.getItem('user')}/${localStorage.getItem('email')}`} activeStyle>

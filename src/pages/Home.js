@@ -25,7 +25,7 @@ const Home = () => {
                 <h2>Treading Thaali in your area</h2>
                 <div className={classes.trendingItems}>
                     {TreadingThalli.map((thaali,i)=>(
-                        <CategoryCard name={thaali.name} price={thaali.price} description={thaali.item} img={thaali.img}/>
+                        <CategoryCard key={i} name={thaali.name} price={thaali.price} description={thaali.item} img={thaali.img}/>
                     ))}
                 </div>
             </div>
