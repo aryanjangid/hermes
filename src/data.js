@@ -1,44 +1,44 @@
 export const messCollection = [
     {
-        name: 'nanashree mess',
+        name: 'Nanashree Mess',
         location: 'Gurudwara chowk',
         price: 70
     },
     {
-        name: 'blue bird',
+        name: 'Blue Bird',
         location: 'bird valley',
         price: 90
     },
     {
-        name: 'nanashree mess',
+        name: 'Nanashree Mess',
         location: 'Gurudwara chowk',
         price: 70
     },
     {
-        name: 'blue bird',
+        name: 'Blue Bird',
         location: 'bird valley',
         price: 90
     },
     {
-        name: 'nanashree mess',
+        name: 'Nanashree Mess',
         location: 'Gurudwara chowk',
         price: 70
     },
     {
-        name: 'blue bird',
+        name: 'Blue Bird',
         location: 'bird valley',
         price: 90
     }
 ]
 export const houseCollection = [
     {
-        name: 'radha',
+        name: 'Radha',
         location: 'akurdi',
         item: 'roti',
         price: 10
     },
     {
-        name: 'sita',
+        name: 'Sita',
         location: 'akurdi',
         item: 'aalu sabzi',
         price: 20
