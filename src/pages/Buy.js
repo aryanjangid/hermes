@@ -4,9 +4,10 @@ import NormalButton from '../components/NormalButton'
 import CategoryCard from '../components/CategoryCard'
 import { messCollection, houseCollection } from '../data'
 import classes from './Buy.module.css'
+import { useNavigate } from 'react-router-dom'
 
 const Buy = () => {
-
+    const navigate = useNavigate()
     const [Collection, setCollection] = useState(messCollection)
 
     return (
@@ -22,7 +23,7 @@ const Buy = () => {
             <div className={classes.list}>
                 {Collection.map(col => {
                     return (
-                        <div className={classes.child} >
+                        <div className={classes.child} onClick={() => navigate('/mess')} >
                             <CategoryCard name={col.name} description={col.location} price={col.price} />
                         </div>
                     )

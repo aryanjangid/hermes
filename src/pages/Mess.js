@@ -5,7 +5,7 @@ import ProductCard from '../components/ProductCard'
 const Mess = () => {
     return (
         <div>
-            <Hero name="Nana Shree Mess" title="Popular for matar paneer" background={background}/>
+            <Hero name="Nana Shree Mess" title="Popular for matar paneer" background={background} />
             <ProductCard />
         </div>
     )
