@@ -1,8 +1,13 @@
 import React from 'react'
+import Login from '../Components/Login'
+import Signup from '../Components/Signup'
 
 const Auth = () => {
     return (
-        <div>Auth</div>
+        <div>
+            {/* <Login></Login> */}
+            <Signup></Signup>
+        </div>
     )
 }
 
