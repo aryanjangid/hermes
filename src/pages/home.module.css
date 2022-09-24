@@ -1,0 +1,84 @@
+.heroDiv{
+    background-color: #f1f7f4;
+    height: 35rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 17rem;
+    padding-left: 10rem;
+}
+.landingContent{
+
+}
+
+.landingContent h1{
+    font-size: 4rem;
+    padding-top:5rem ;
+    color: #ff8201;
+}
+
+.landingContent h3{
+    font-weight: 400;
+}   
+
+.landingContent button{
+    margin-right: 2rem;
+    width: 200px;
+    margin-top: 50px;
+}
+.landingImage img{
+    width: 25rem;
+    transform: rotate(90deg);
+}
+/* From uiverse.io by @bhaveshxrawat */
+.card {
+    width: 190px;
+    height: 254px;
+    background: #07182E;
+    position: relative;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+  
+  .card h2 {
+    z-index: 1;
+    color: white;
+    font-size: 2em;
+  }
+  
+  .card::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
+    height: 130%;
+    animation: rotBGimg 3s linear infinite;
+    transition: all 0.2s linear;
+  }
+  
+  @keyframes rotBGimg {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .card::after {
+    content: '';
+    position: absolute;
+    background: #f1f7f4;
+    ;
+    inset: 5px;
+    border-radius: 15px;
+  }  
+  /* .card:hover:before {
+    background-image: linear-gradient(180deg, rgb(81, 255, 0), purple);
+    animation: rotBGimg 3.5s linear infinite;
+  } */
+  
+  

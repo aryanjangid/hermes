@@ -3,9 +3,9 @@ button {
     padding: 15px 25px;
     border: unset;
     border-radius: 15px;
-    color: #212121;
+    color: white;
     z-index: 1;
-    background: #e8e8e8;
+    background: #48bb78;
     position: relative;
     font-weight: 1000;
     font-size: 17px;

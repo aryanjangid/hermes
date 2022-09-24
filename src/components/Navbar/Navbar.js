@@ -19,20 +19,14 @@ const Navbar = () => {
     }, [])
     return (
         <>
-            <Nav style={{backgroundColor:'black', height: "fitContent", width: "100wh"
+            <Nav style={{backgroundColor:'#212121', height: "fitContent", width: "71rem"
             }}>
                 <NavLink to='/'>
-                    {/* <img style={{ width: "3rem", height: "3rem" }} src="{logo}" alt='logo' /> */}
                     <h1 style={{ marginBottom: "2rem", margin: "auto", marginLeft: "1rem",color: "white" }}>Get Some Food</h1>
 
                 </NavLink>
                 <Bars />
                 <NavMenu>
-                    {/* <NavLink to='/' activeStyle>
-                        <div className={classes.navLinks}>
-                            Rooms
-                        </div>
-                    </NavLink> */}
                     <NavLink to='/search' activeStyle>
                         Search Skills
                     </NavLink>
@@ -45,7 +39,6 @@ const Navbar = () => {
                     {login && <NavLink to={`/profile/${localStorage.getItem('user')}/${localStorage.getItem('email')}`} activeStyle>
                         Profile
                     </NavLink>}
-                    {/* Second Nav */}
                     {!login ? <NavBtnLink to='/login'>Sign In</NavBtnLink> : <NavBtnLink to='/login' onClick={() => localStorage.clear()}>logout</NavBtnLink>}
                 </NavMenu>
                 <NavBtn>

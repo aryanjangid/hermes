@@ -11,7 +11,7 @@ const CategoryCard = (props) => {
             <div class={classes.cardInfo}>
                 <p class={classes.textTitle}>{props.name} </p>
                 <p class={classes.textBody}>{props.description}</p>
-                <h2 class={classes.textBody}>${props.price}</h2>
+                <h2 class={classes.textBody}><span>Avg Price </span>${props.price}</h2>
             </div>
             <div class={classes.cardFooter}>
                 <Button name="Check Now"/>

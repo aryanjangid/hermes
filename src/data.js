@@ -62,3 +62,22 @@ export const Thali = [
         price: 80,
     },
 ]
+
+
+export const TreadingThalli = [
+    {
+        name:"Sudama Thaali",
+        item: 'aalu sabzi',
+        price: 80,
+    },
+    {
+        name:"Nana Thaali",
+        item: 'aalu sabzi',
+        price: 80,
+    },
+    {
+        name:"Gayatri Thaali",
+        item: 'aalu sabzi',
+        price: 80,
+    },
+]
