@@ -1,9 +1,9 @@
 import React from 'react'
-// import classes from './normalButton.module.css'
+import classes from './normalButton.module.css'
 
 const NormalButton = ({ name }) => {
   return (
-    <button style={{ width: '100%' }}>
+    <button className={classes.btn} style={{ width: '100%' }}>
       {name}
     </button>
   )
