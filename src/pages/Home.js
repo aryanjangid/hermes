@@ -1,6 +1,5 @@
 import React from 'react'
-import { Route, Routes, useNavigate } from 'react-router';
-import Mess from './Mess';
+import { useNavigate } from 'react-router-dom'
 
 const Home = () => {
   const navigate = useNavigate()
