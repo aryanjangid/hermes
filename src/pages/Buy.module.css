@@ -14,10 +14,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding: 2rem 8rem  ;
 }
 
 .child {
     flex-basis: 21%;
-    margin-left: 5rem;
-    margin-top: 1rem;
 }
