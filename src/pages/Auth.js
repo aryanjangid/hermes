@@ -1,12 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Login from '../components/Login'
 import Signup from '../components/Signup'
 
-const Auth = () => {
+const Auth = ({ setIn }) => {
+
+    const [sw, setSw] = useState(false)
+
     return (
         <div>
-            <Login></Login>
-            <Signup></Signup>
+            {sw ?
+                <Login setSw={setSw} setIn={setIn} /> :
+                <Signup setSw={setSw} setIn={setIn} />
+            }
         </div>
     )
 }

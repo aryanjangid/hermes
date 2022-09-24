@@ -3,7 +3,7 @@ import classes from './normalButton.module.css'
 
 const NormalButton = ({ name }) => {
   return (
-    <button>
+    <button style={{ width: '100%' }}>
       {name}
     </button>
   )
