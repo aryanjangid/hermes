@@ -10,7 +10,7 @@ const ProductCard = (props) => {
             </div>
             <div class={classes.cardInfo}>
                 <p class={classes.textTitle}>{props.name} </p>
-                <p class={classes.textBody}>{props.description}</p>
+                <p class={classes.textBody}>{props.item}</p>
                 <h2 class={classes.textBody}>${props.price}</h2>
             </div>
             <div class={classes.cardFooter}>
