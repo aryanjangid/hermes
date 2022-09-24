@@ -6,11 +6,12 @@ const CategoryCard = (props) => {
     return (
         <div class={classes.card}>
             <div class={classes.cardImg}>
-                <img></img>
+                <img src={props.image}></img>
             </div>
             <div class={classes.cardInfo}>
                 <p class={classes.textTitle}>{props.name} </p>
                 <p class={classes.textBody}>{props.description}</p>
+                <h2 class={classes.textBody}>${props.price}</h2>
             </div>
             <div class={classes.cardFooter}>
                 <Button name="Check Now"/>

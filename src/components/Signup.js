@@ -7,8 +7,8 @@ const Signup = () => {
     <>
       <div className={classes.mainDiv}>
         <div className={classes.innerDiv}>
-          <h2>Create New Account</h2>
-          <h4>
+          <h1 className={classes.headingSignup}>Create New Account</h1>
+          <h4 className={classes.headingtoLogin}>
             Already A Member ? <span>Sign Up</span>
           </h4>
           <form className={classes.formSignup} action="">
@@ -16,8 +16,8 @@ const Signup = () => {
             <input className="inputBox" type="email" placeholder="johnwick@gmail.com" />
             <input className="inputBox" type="password" />
             <div className={classes.divButtons}>
-                <Button name="Mess"></Button>
-                <Button name="User"></Button>
+                <input type="radio" name="Mess" id="" />
+                <input type="radio" name="User" id="" />
             </div>
             <Button name="Signup"></Button>
           </form>
