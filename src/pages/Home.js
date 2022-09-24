@@ -1,9 +1,5 @@
 import React from 'react'
-<<<<<<< HEAD
-=======
-import { Route, Routes, useNavigate } from 'react-router';
-import Mess from './Mess';
->>>>>>> 52a6c9fa48abdeb1efc371c89dfdd8693d759215
+import { useNavigate } from 'react-router-dom'
 
 const Home = () => {
   const navigate = useNavigate()
@@ -11,7 +7,6 @@ const Home = () => {
     <div>
       <button onClick={() => navigate('/buy')}>buy</button>
       <button onClick={() => navigate('/sell')}>sell</button>
-      <Mess/>
     </div>
   )
 }
