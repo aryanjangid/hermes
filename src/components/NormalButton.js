@@ -1,10 +1,11 @@
 import React from 'react'
 import classes from './normalButton.module.css'
 
-const NormalButton = () => {
+const NormalButton = ({ name }) => {
   return (
-    <button> Click me!
-</button>
+    <button>
+      {name}
+    </button>
   )
 }
 
