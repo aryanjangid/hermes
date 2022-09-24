@@ -8,6 +8,26 @@ export const messCollection = [
         name: 'blue bird',
         location: 'bird valley',
         price: 90
+    },
+    {
+        name: 'nanashree mess',
+        location: 'Gurudwara chowk',
+        price: 70
+    },
+    {
+        name: 'blue bird',
+        location: 'bird valley',
+        price: 90
+    },
+    {
+        name: 'nanashree mess',
+        location: 'Gurudwara chowk',
+        price: 70
+    },
+    {
+        name: 'blue bird',
+        location: 'bird valley',
+        price: 90
     }
 ]
 export const houseCollection = [
