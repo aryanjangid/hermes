@@ -1,27 +1,25 @@
 import React from "react";
 import classes from "./Signup.module.css";
+import Button from "./Button.js"
 
 const Signup = () => {
   return (
     <>
       <div className={classes.mainDiv}>
         <div className={classes.innerDiv}>
-          <h2>Create New Account</h2>
-          <h4>
+          <h1 className={classes.headingSignup}>Create New Account</h1>
+          <h4 className={classes.headingtoLogin}>
             Already A Member ? <span>Sign Up</span>
           </h4>
-          <form action="">
-            <div className={classes.nameDiv}>
-              <input type="text" placeholder="John" />
-              <input type="text" placeholder="Wick" />
-            </div>
-            <input type="email" placeholder="johnwick@gmail.com" />
-            <input type="password" />
+          <form className={classes.formSignup} action="">
+            <input className="inputBox" type="text" placeholder="John Wick" />
+            <input className="inputBox" type="email" placeholder="johnwick@gmail.com" />
+            <input className="inputBox" type="password" />
             <div className={classes.divButtons}>
-              <input type="button" value="Mess" />
-              <input type="button" value="User" />
+                <input type="radio" name="Mess" id="" />
+                <input type="radio" name="User" id="" />
             </div>
-            <button type="submit">Sign Up</button>
+            <Button name="Signup"></Button>
           </form>
         </div>
       </div>
