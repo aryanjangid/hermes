@@ -8,7 +8,6 @@ const Home = () => {
     <div>
       <button onClick={() => navigate('/buy')}>buy</button>
       <button onClick={() => navigate('/sell')}>sell</button>
-      <Mess/>
     </div>
   )
 }
