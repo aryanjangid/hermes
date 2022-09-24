@@ -6,7 +6,7 @@ const CategoryCard = (props) => {
     return (
         <div class={classes.card}>
             <div class={classes.cardImg}>
-                <img src={props.img}></img>
+                <img src={props.img} alt="background"></img>
             </div>
             <div class={classes.cardInfo}>
                 <p class={classes.textTitle}>{props.name} </p>

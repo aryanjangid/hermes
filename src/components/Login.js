@@ -1,15 +1,15 @@
 import React from 'react'
 import classes from './Login.module.css'
-import Button from "./Button.js"
+// import Button from "./Button.js"
 import NormalButton from "./NormalButton.js"
 import { useNavigate } from 'react-router-dom'
 
 const Login = ({ setSw }) => {
   const navigate = useNavigate()
-  const save = (e) => {
-    e.preventDefault()
-    navigate('/')
-  }
+  // const save = (e) => {
+  //   e.preventDefault()
+  //   navigate('/')
+  // }
 
   return (
     <>

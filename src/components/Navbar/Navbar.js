@@ -10,7 +10,7 @@ import {
 // import logo from '../../Assets/logo.png'
 // import background from '../../Assets/chatsbackground.png'
 // import { faChampagneGlasses } from '@fortawesome/free-solid-svg-icons';
-import classes from './navbar.module.css'
+// import classes from './navbar.module.css'
 
 const Navbar = () => {
     const [login, setLogin] = useState(false)

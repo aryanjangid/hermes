@@ -1,16 +1,15 @@
 import './App.css';
-import { Route, Routes, Navigate } from 'react-router';
+import { Route, Routes } from 'react-router';
 import Home from './pages/Home'
 import Auth from './pages/Auth';
 import Buy from './pages/Buy';
 import Sell from './pages/Sell';
 import Mess from './pages/Mess';
-import { useEffect } from 'react';
-import { useState } from 'react';
+// import { useState } from 'react';
 import Navbar from './components/Navbar/Navbar';
 
 function App() {
-  const [In, setIn] = useState(null)
+  // const [In, setIn] = useState(null)
   return (
     <>
       <Navbar />

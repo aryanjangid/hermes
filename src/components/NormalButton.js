@@ -1,5 +1,5 @@
 import React from 'react'
-import classes from './normalButton.module.css'
+// import classes from './normalButton.module.css'
 
 const NormalButton = ({ name }) => {
   return (

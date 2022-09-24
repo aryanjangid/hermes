@@ -18,7 +18,7 @@ const Home = () => {
                     <button onClick={() => navigate('/sell')}>KHILA</button>
                 </div>
                 <div className={classes.landingImage}>
-                    <img src={background}></img>
+                    <img src={background} alt="background"></img>
                 </div>
             </div>
             <div className={classes.trending}>
