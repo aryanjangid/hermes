@@ -2,6 +2,7 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import background from '../Assets/homeback1.png'
 import CategoryCard from '../components/CategoryCard'
+import { TreadingThalli } from '../data'
 import classes from './home.module.css'
 const Home = () => {
     const navigate = useNavigate()
@@ -20,10 +21,12 @@ const Home = () => {
                     <img src={background}></img>
                 </div>
             </div>
-            <div>
+            <div className={classes.trending}>
                 <h2>Treading Thaali in your area</h2>
-                <div>
-                    <CategoryCard />
+                <div className={classes.trendingItems}>
+                    {TreadingThalli.map((thaali,i)=>(
+                        <CategoryCard name={thaali.name} price={thaali.price}/>
+                    ))}
                 </div>
             </div>
         </div>
