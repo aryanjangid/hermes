@@ -19,21 +19,22 @@ const Navbar = () => {
     }, [])
     return (
         <>
-            <Nav style={{backgroundColor:'#212121', height: "fitContent", width: "71rem"
+            <Nav style={{
+                backgroundColor: '#212121', height: "fitContent", width: "71rem"
             }}>
                 <NavLink to='/'>
-                    <h1 style={{ marginBottom: "2rem", margin: "auto", marginLeft: "1rem",color: "white" }}>Get Some Food</h1>
+                    <h1 style={{ marginBottom: "2rem", margin: "auto", marginLeft: "1rem", color: "white" }}>Aahhar</h1>
 
                 </NavLink>
                 <Bars />
                 <NavMenu>
-                    <NavLink to='/search' activeStyle>
-                        Search Skills
+                    <NavLink to='/buy' activeStyle>
+                        Kha
                     </NavLink>
-                    <NavLink to='/studygroups' activeStyle>
-                        Study Groups
+                    <NavLink to='/sell' activeStyle>
+                        Khila
                     </NavLink>
-                    {!login && <NavLink to='/register' activeStyle>
+                    {!login && <NavLink to='/auth' activeStyle>
                         Register Now
                     </NavLink>}
                     {login && <NavLink to={`/profile/${localStorage.getItem('user')}/${localStorage.getItem('email')}`} activeStyle>
