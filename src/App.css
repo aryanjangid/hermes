@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.inputBox{
+  background-color: white;
+  border:0;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 20rem;
+  height: 2rem;
+  font-size: 17px;
+  border: none;
+  outline: none;
+  transition: .25s ease;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin:1rem;
+  font-family: 'DM Sans', sans-serif;
+}
+
+input:focus{
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  color: #050038;
+}
