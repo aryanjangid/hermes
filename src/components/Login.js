@@ -24,6 +24,12 @@ const Login = ({ setSw }) => {
             <input className={classes.inputBoxes} id="email" type="email" placeholder="johnwick@gmail.com" />
             <label htmlFor="password">Password</label>
             <input className={classes.inputBoxes} id="password" type="password" />
+            <div className={classes.divButtons}>
+              <input type="radio" name="type" id="radio1" />
+              <label for="radio1">Mess</label>
+              <input type="radio" name="type" id="radio2" />
+              <label for="radio2">User</label>
+            </div>
             <div onClick={(e) => { navigate('/'); e.preventDefault() }} style={{ width: '100%' }}>
               <NormalButton style={{ pointerEvents: 'none', width: '100%' }} name="Login" ></NormalButton>
             </div>
