@@ -24,7 +24,6 @@ const Navbar = () => {
             }}>
                 <NavLink to='/'>
                     <h1 style={{ marginBottom: "2rem", margin: "auto", marginLeft: "1rem", color: "white" }}>Aahhar</h1>
-
                 </NavLink>
                 <Bars />
                 <NavMenu>
@@ -40,7 +39,7 @@ const Navbar = () => {
                     {login && <NavLink to={`/profile/${localStorage.getItem('user')}/${localStorage.getItem('email')}`} activeStyle>
                         Profile
                     </NavLink>}
-                    {!login ? <NavBtnLink to='/login'>Sign In</NavBtnLink> : <NavBtnLink to='/login' onClick={() => localStorage.clear()}>logout</NavBtnLink>}
+                    {!login ? <NavBtnLink to='/auth'>Log In</NavBtnLink> : <NavBtnLink to='/auth' onClick={() => localStorage.clear()}>logout</NavBtnLink>}
                 </NavMenu>
                 <NavBtn>
                 </NavBtn>
