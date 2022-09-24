@@ -44,3 +44,21 @@ export const houseCollection = [
         price: 20
     }
 ]
+
+export const Thali = [
+    {
+        name:"Veg Thaali",
+        item: 'aalu sabzi',
+        price: 80,
+    },
+    {
+        name:"Rice Thaali",
+        item: 'aalu sabzi',
+        price: 80,
+    },
+    {
+        name:"Non-Veg Thaali",
+        item: 'aalu sabzi',
+        price: 80,
+    },
+]
