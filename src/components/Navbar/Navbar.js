@@ -20,7 +20,7 @@ const Navbar = () => {
     return (
         <>
             <Nav style={{
-                backgroundColor: '#212121', height: "fitContent", width: "71rem"
+                backgroundColor: '#212121', height: "fitContent", width: "100vw"
             }}>
                 <NavLink to='/'>
                     <h1 style={{ marginBottom: "2rem", margin: "auto", marginLeft: "1rem", color: "white" }}>Aahhar</h1>
