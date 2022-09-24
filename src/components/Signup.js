@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./Signup.module.css";
-import Button from "./Button.js"
+import NormalButton from "./NormalButton.js"
 
 const Signup = () => {
   return (
@@ -9,7 +9,7 @@ const Signup = () => {
         <div className={classes.innerDiv}>
           <h1 className={classes.headingSignup}>Create New Account</h1>
           <h4 className={classes.headingtoLogin}>
-            Already A Member ? <span className={classes.toLogin}>Sign Up</span>
+            Already A Member ? <span className={classes.toLogin}>Login</span>
           </h4>
           <form className={classes.formSignup} action="">
             <label htmlFor="name">Name</label>
@@ -19,12 +19,12 @@ const Signup = () => {
             <label htmlFor="password">Password</label>
             <input className={classes.inputBoxes} id="password" type="password" />
             <div className={classes.divButtons}>
-                <input type="radio" name="Mess" id="radio1" />
+                <input type="radio" name="type" id="radio1" />
                 <label for="radio1">Mess</label>
-                <input type="radio" name="User" id="radio2" />
+                <input type="radio" name="type" id="radio2" />
                 <label for="radio2">User</label>
             </div>
-            <Button name="Signup"></Button>
+            <NormalButton name="Signup"></NormalButton>
           </form>
         </div>
       </div>

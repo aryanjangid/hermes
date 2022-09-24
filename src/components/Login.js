@@ -8,9 +8,9 @@ const Login = () => {
     <>
     <div className={classes.mainDiv}>
       <div className={classes.innerDiv}>
-        <h1 className={classes.headingSignup}>Create New Account</h1>
+        <h1 className={classes.headingSignup}>Let's Eat</h1>
         <h4 className={classes.headingtoLogin}>
-          Already A Member ? <span className={classes.toLogin}>Sign Up</span>
+          New to Ceres ? <span className={classes.toLogin}>Sign Up</span>
         </h4>
         <form className={classes.formSignup} action="">
           <label htmlFor="email">E-mail</label>

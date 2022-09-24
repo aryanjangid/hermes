@@ -47,10 +47,11 @@
 }
 .toLogin{
     cursor: pointer;
-    color: rgb(162, 207, 242);
+    color: rgb(255, 0, 0);
 }
 label{
     margin: 0.5rem;
+    font-weight: bold;
 }
 .formSignup{
     display: flex;
