@@ -20,26 +20,26 @@ export const messCollection = [
 
     },
     {
-        name: 'Nanashree Mess',
+        name: 'Lucky Point',
         location: 'Gurudwara chowk',
         price: 70,
         img:t3
     },
     {
-        name: 'Blue Bird',
+        name: 'Dhanashree Mess',
         location: 'bird valley',
         price: 90,
         img:t4
     },
 
     {
-        name: 'Nanashree Mess',
+        name: 'Anna ka Mess',
         location: 'Gurudwara chowk',
         price: 70,
         img:t5
     },
     {
-        name: 'Blue Bird',
+        name: "Our mom's kitchen",
         location: 'bird valley',
         price: 90,
         img:t6
@@ -54,7 +54,7 @@ export const houseCollection = [
         img:t1
     },
     {
-        name: 'Sita',
+        name: 'Ved',
         location: 'akurdi',
         item: 'aalu sabzi',
         price: 20,
@@ -64,20 +64,20 @@ export const houseCollection = [
 
 export const Thali = [
     {
-        name:"Veg Thaali",
+        name: "Veg Thaali",
         item: 'aalu sabzi',
         price: 80,
         img:t1
 
     },
     {
-        name:"Rice Thaali",
+        name: "Rice Thaali",
         item: 'aalu sabzi',
         price: 80,
         img:t2
     },
     {
-        name:"Non-Veg Thaali",
+        name: "Non-Veg Thaali",
         item: 'aalu sabzi',
         price: 80,
         img:t3
@@ -87,20 +87,20 @@ export const Thali = [
 
 export const TreadingThalli = [
     {
-        name:"Sudama Thaali",
+        name: "Sudama Thaali",
         item: 'Allu sabzi, Rice',
         price: 80,
         img:t1
     },
     {
-        name:"Nana Thaali",
+        name: "Nana Thaali",
         item: 'Chole Bhature, Chapati sabzi',
         price: 90,
         img:t2
 
     },
     {
-        name:"Gayatri Thaali",
+        name: "Gayatri Thaali",
         item: 'Panner butter masala',
         price: 100,
         img:t3
