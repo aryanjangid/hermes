@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "./Signup.module.css";
+import Button from "./Button.js"
 
 const Signup = () => {
   return (
@@ -10,18 +11,15 @@ const Signup = () => {
           <h4>
             Already A Member ? <span>Sign Up</span>
           </h4>
-          <form action="">
-            <div className={classes.nameDiv}>
-              <input type="text" placeholder="John" />
-              <input type="text" placeholder="Wick" />
-            </div>
-            <input type="email" placeholder="johnwick@gmail.com" />
-            <input type="password" />
+          <form className={classes.formSignup} action="">
+            <input className="inputBox" type="text" placeholder="John Wick" />
+            <input className="inputBox" type="email" placeholder="johnwick@gmail.com" />
+            <input className="inputBox" type="password" />
             <div className={classes.divButtons}>
-              <input type="button" value="Mess" />
-              <input type="button" value="User" />
+                <Button name="Mess"></Button>
+                <Button name="User"></Button>
             </div>
-            <button type="submit">Sign Up</button>
+            <Button name="Signup"></Button>
           </form>
         </div>
       </div>
